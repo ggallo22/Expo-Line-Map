@@ -28,6 +28,32 @@
   flex-grow: 1;
 }
 
+
+.layoutheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f5f7;
+  padding: 110px;
+  margin-top: -70px;
+  width: 100%;
+  height: 0rem;
+}
+
+.layoutfooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #005daa;
+  color:white;
+  font-size: 5em;
+  text-align: center;
+  padding: 90px;
+  width: 100%;
+  height: 10rem;
+  margin-bottom: -70px;
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
